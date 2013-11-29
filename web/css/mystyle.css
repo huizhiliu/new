@@ -1,0 +1,249 @@
+*{
+	margin:0;
+	padding:0;
+    font-family:"Microsoft Yahei";
+    color: gray;
+}
+body{
+    background-image: url(../img/bg.png);
+}
+#top{
+	width:100%;
+	height: 35px;
+    top:20px;
+	background-image: url(../img/ditu2.gif);
+	font-weight: bold;
+}
+#size{
+	line-height: 35px;
+}
+#logo{
+	margin-top: 5px;
+	position:absolute;
+	right: 185px; 
+}
+#search{
+	margin-top: 20px;
+	text-indent: 185px;
+}
+#search_bar{
+	position: absolute;
+	right: 185px;
+}
+#nav{
+	margin:28px;
+	width: 982px;
+	height: 502px;
+	left: 160px;
+	background-image: url(../img/ditu2.gif);
+	border-radius: 20px;
+    position: absolute;
+    box-shadow:3px 3px 3px black;
+}
+#nav_next{
+	list-style-type: none;
+	border-radius: 20px;
+}
+#nav_next li{
+	float: left;
+	width:121.5px;
+	height: 59px;
+	background-color: rgb(27,113,181);
+	text-align: center;
+	border-right: 1px solid blue;
+}
+#nav_next li:hover{background-color: rgb(77,158,202);}
+#nav_next a{
+	color: white;
+	display: inline-block;
+	line-height: 59px;
+	text-decoration: none;
+}
+#place{
+
+	margin-top: 80px;
+	width: 980px;
+	height: 420px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+#comments{
+	height: 62px;
+	background-color: rgb(25,25,25);
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#last{
+	top: 710px;
+	width: 982px;
+	height: 634px;
+    color: white;
+	position: absolute;
+	left: 190px;
+	border-radius: 20px;
+	background-image: url(../img/ditu2.gif);
+	box-shadow:3px 3px 3px black;
+}
+.sec_img_1{
+	position: relative;
+	left: 200px;
+}
+.sec_img_2{
+	position: relative;
+	top:15px;
+	left: 224px;
+}
+.sec_img_3{
+	position: relative;
+	left: 250px;
+	top:10px;
+}
+#left_top{
+	width: 620px;
+	height: 287px;
+	margin-top: 50px;
+	margin-left: 23px;
+}
+#right_top{
+    position: absolute;
+    top:50px;
+    right:25px;
+}
+#left_bottom{
+    position: absolute;
+    width:620px;
+    top:343px;
+    left: 23px;
+    height:240px;
+    
+}
+#right_bottom{
+	position: absolute;
+    right: 25px;
+}
+
+.os_nav{list-style-type: square;
+        width: 290px;
+        height: 170px;
+        position: absolute;
+        left: 20px;
+}
+.word{
+	word-spacing: -1px;
+	height: 
+}
+.white,.blue{
+    word-spacing: -2px;
+    font-size: 12px;
+    line-height: 25px;
+}
+.blue:link{color: rgb(52,156,230);}
+.nav_words{font-size: 25.79px;}
+.word{font-size: 12px;}
+.learn_more{
+    position: absolute;
+    top: 232px;
+    left: 23px;
+}
+.adj{
+    position: relative;
+    top:-35px;
+}
+.photo{
+    width: 600px;
+    height: 152px;
+    background-color: black;
+    background: rgba(0,0,0,0.4);
+    position: absolute;
+    top: 100px;
+    left:15px;
+}
+#container{
+    position: relative;
+    left: 10px;
+    top:20px;
+
+}
+
+#img_nav,#top ul{
+    list-style-type: none;
+}
+#img_nav li{
+    margin-left: 25px;
+    width: 110px;
+    float: left;
+}
+#bottom li,.top_lists li{
+    float: left;
+    width:55px;
+    padding-left: 4px;
+    border-right: 1px solid black;
+    
+}
+.round{
+    border-radius: 100%;
+    background-color: white;
+}
+#bottom{
+	position: absolute;
+	top: 1350px;
+	left: 190px;
+	height: 100px;
+}
+#bottom ul{
+	position: absolute;
+	top:25px;
+	width: 500px;
+}
+#bottom span{
+	position: relative;
+	left: 630px;
+	top:20px;
+}
+.round{
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color: white;
+    float: left;
+    margin-left: 5px;
+}
+.round:hover{
+	background-color: rgb(52,156,230);
+    cursor: pointer;
+}
+#round_box{
+	width:80px;
+	height:30px;
+    position: absolute;
+	top:660px;
+    left: 640px;
+}
+
+#placeholder{
+	width:980px;
+	height:360px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+.top_lists{
+	position: absolute;
+	left: 185px;
+}
+.top_lists li{
+	width: 80px;
+	line-height: 35px;
+    margin-left: 15px;
+}
+.nav_lists_left{
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.nav_lists_right{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.learn_more,.sec_img_3:hover{
+    cursor: pointer;
+}
